@@ -9,6 +9,15 @@
     directory="resources"
     />
 
+  <browser:viewlet
+    name="l10n.timeago"
+    for="*"
+    manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
+    class=".viewlet.L10nTimeAgo"
+    layer=".interfaces.ILayer"
+    permission="zope2.View"
+    />
+
   <include file="upgrades.zcml"/>
 
   <genericsetup:registerProfile
