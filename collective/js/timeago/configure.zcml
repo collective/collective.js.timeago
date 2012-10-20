@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.timeago">
+
+  <browser:resourceDirectory
+    name="collective.js.timeago"
+    directory="resources"
+    />
+
+  <include file="upgrades.zcml"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.timeago"
+      directory="profiles/default"
+      description='Extension profile for collective.js.timeago.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

@@ -1,0 +1,6 @@
+<layers>
+<!-- uncomment to activate
+    <layer name="collective.js.timeago"
+           interface="collective.js.timeago.interfaces.ILayer" />
+-->
+</layers>
