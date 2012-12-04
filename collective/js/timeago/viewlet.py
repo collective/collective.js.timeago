@@ -12,3 +12,7 @@ class L10nTimeAgo(ViewletBase):
 
     def index(self):
         return SCRIPT_TAG % (self.site_url, self.lang)
+
+
+class TimeAgo(ViewletBase):
+    """Load timeago on css class .timeago"""

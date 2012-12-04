@@ -2,6 +2,7 @@ Introduction
 ============
 
 This addon register timeago_ jquery plugin into Plone resource registry
+and activate it on '.timeago' selector with l10n.
 
 About TimeAgo
 =============
