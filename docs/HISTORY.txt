@@ -4,6 +4,9 @@ Changelog
 1.1 (unreleased)
 ----------------
 
+- Added swiss german translations.
+  [phgross]
+
 - Activate timeago on '.timeago' jQuery selector.
 
 
