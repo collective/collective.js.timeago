@@ -4,6 +4,9 @@ Changelog
 1.1 (unreleased)
 ----------------
 
+- Add fr-ch locale (French (Switzerland)).
+  [lgraf]
+
 - Added swiss german translations.
   [phgross]
 
